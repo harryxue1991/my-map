@@ -134,13 +134,13 @@ export default {
     this.tms_init();
     this.map_init();
     let aLayer = L.layerGroup();
-    let bLayer = L.layerGroup();
+    //let bLayer = L.layerGroup();
 
     let m = L.marker([31.59, 120.29]);
     m.addTo(aLayer);
-    aLayer.addTo(map);
+    aLayer.addTo(this.map);
     
-    m.addTo(this.map);
+    // m.addTo(this.map);
     
   }
 }
